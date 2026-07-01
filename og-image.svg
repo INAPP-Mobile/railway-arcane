@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#0f172a"/>
+  <rect x="100" y="120" width="1000" height="390" rx="40" fill="#1e293b" stroke="#38bdf8" stroke-width="2" opacity="0.5"/>
+  <circle cx="250" cy="315" r="80" fill="#0ea5e9" opacity="0.15"/>
+  <text x="600" y="270" text-anchor="middle" font-family="system-ui,sans-serif" font-size="72" font-weight="800" fill="white">Arcane</text>
+  <text x="600" y="330" text-anchor="middle" font-family="system-ui,sans-serif" font-size="28" fill="#38bdf8">Modern Docker Management Interface</text>
+  <rect x="440" y="380" width="320" height="60" rx="30" fill="#6c3fc5"/>
+  <text x="600" y="418" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" font-weight="600" fill="white">Deploy on Railway</text>
+  <text x="600" y="530" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" fill="#6b7280">Self-hosted · SQLite · 5.9K★ · Docker Management</text>
+</svg>
