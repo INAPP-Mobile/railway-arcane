@@ -1,8 +1,6 @@
 # Deploy and Host
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/BV1O-V)
-
-> **Canonical code:** `BV1O-V` — deploy URL: https://railway.app/template/BV1O-V
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/arcane)
 
 ![OG Image](https://raw.githubusercontent.com/INAPP-Mobile/railway-arcane/main/og-image.svg)
 
