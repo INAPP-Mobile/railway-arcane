@@ -1,0 +1,32 @@
+{
+  "APP_URL": {
+    "defaultValue": "https://${{RAILWAY_PUBLIC_DOMAIN}}",
+    "description": "Public URL of your Arcane instance. Auto-populated from Railway's public domain; override if using a custom domain.",
+    "isOptional": true
+  },
+  "ENCRYPTION_KEY": {
+    "defaultValue": "${{secret(64)}}",
+    "description": "32-byte hex string for encryption. Auto-generated. Generate manually with: openssl rand -hex 32.",
+    "isOptional": false
+  },
+  "JWT_SECRET": {
+    "defaultValue": "${{secret(64)}}",
+    "description": "32-byte hex string for JWT signing. Auto-generated. Generate manually with: openssl rand -hex 32.",
+    "isOptional": false
+  },
+  "PORT": {
+    "defaultValue": "3552",
+    "description": "Port Arcane listens on (default: 3552).",
+    "isOptional": true
+  },
+  "PUID": {
+    "defaultValue": "65532",
+    "description": "User ID for file ownership (default: 65532).",
+    "isOptional": true
+  },
+  "PGID": {
+    "defaultValue": "65532",
+    "description": "Group ID for file ownership (default: 65532).",
+    "isOptional": true
+  }
+}
