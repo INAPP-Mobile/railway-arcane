@@ -8,7 +8,7 @@ Arcane is a modern, web-based Docker management interface. Manage containers, im
 
 ## About Hosting
 
-Arcane runs as a single container with SQLite for persistence. Railway provides the compute, TLS at the edge, and a public URL. The service restarts automatically on failures. No external database is required — everything runs in one container.
+Arcane runs as a single container with SQLite for persistence. Railway provides the compute, TLS at the edge, and a public URL. The service restarts automatically on failures. No external database is required — everything runs in one container with a persistent `/app/data` volume for SQLite, settings, and uploaded assets.
 
 ## Why Deploy
 
