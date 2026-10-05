@@ -1,4 +1,4 @@
-FROM ghcr.io/getarcaneapp/manager:v2.8.0
+FROM ghcr.io/getarcaneapp/manager:v2.15.0
 
 LABEL org.opencontainers.image.source="https://github.com/INAPP-Mobile/railway-arcane"
 
